@@ -1,0 +1,55 @@
+{
+  "name": "@dyhpoon/egg-passport-auth0",
+  "version": "0.0.1",
+  "description": "auth0 passport plugin for egg",
+  "eggPlugin": {
+    "name": "passportAuth0",
+    "dependencies": [
+      "passport"
+    ]
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-passport",
+    "passport-auth0"
+  ],
+  "dependencies": {
+    "debug": "^3.1.0",
+    "passport-auth0": "^0.6.1"
+  },
+  "devDependencies": {
+    "egg": "^2.3.0",
+    "egg-bin": "^4.3.7",
+    "egg-mock": "^3.0.0",
+    "egg-passport": "^2.0.1",
+    "eslint": "^4.18.0",
+    "eslint-config-egg": "^6.0.0",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
+  },
+  "files": [
+    "app.js",
+    "config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyhpoon/egg-passport-auth0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dyhpoon/egg-passport-auth0/issues"
+  },
+  "homepage": "https://github.com/dyhpoon/egg-passport-auth0#readme",
+  "author": "dyhpoon",
+  "license": "MIT"
+}
