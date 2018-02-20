@@ -22,7 +22,7 @@ auth0 passport plugin for egg
 ## Install
 
 ```bash
-$ npm i
+$ npm i @dyhpoon/egg-passport-auth0 --save
 ```
 
 ## Usage
