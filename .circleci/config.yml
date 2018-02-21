@@ -13,7 +13,7 @@ aliases:
 
   - &yarn-install
     run: |
-      sudo npm i -g yarn@^1.3.2
+      sudo npm i -g yarn@^1.2.1
       yarn --no-progress
 version: 2
 jobs:
