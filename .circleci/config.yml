@@ -43,21 +43,6 @@ jobs:
       - EGG_PASSPORT_AUTH0_CLIENT_ID: abc123
       - EGG_PASSPORT_AUTH0_CLIENT_SECRET: secret
 
-  test-node-6:
-    working_directory: ~/egg-passport-auth0
-    docker:
-      - image: circleci/node:6
-    steps:
-      - checkout
-      - restore-cache: *restore-cache
-      - run: yarn --no-progress
-      - save-cache: *save-cache
-      - run: yarn test
-    environment:
-      - EGG_PASSPORT_AUTH0_DOMAIN: test.auth0.com
-      - EGG_PASSPORT_AUTH0_CLIENT_ID: abc123
-      - EGG_PASSPORT_AUTH0_CLIENT_SECRET: secret
-
   lint-and-cov:
     working_directory: ~/egg-passport-auth0
     docker:
@@ -79,10 +64,8 @@ workflows:
   build-and-deploy:
     jobs:
       - test-node-8
-      - test-node-6
       - test-node-9
       - lint-and-cov:
           requires:
             - test-node-8
-            - test-node-6
             - test-node-9
