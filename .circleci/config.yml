@@ -57,6 +57,17 @@ jobs:
       - EGG_PASSPORT_AUTH0_CLIENT_ID: abc123
       - EGG_PASSPORT_AUTH0_CLIENT_SECRET: secret
 
+  lint-and-cov:
+    working_directory: ~/egg-passport-auth0
+    docker:
+      - image: circleci/node:8
+    steps:
+      - checkout
+      - restore-cache: *restore-cache
+      - save-cache: *save-cache
+      - run: yarn ci
+      - run: bash <(curl -s https://codecov.io/bash)
+
 workflows:
   version: 2
   build-and-deploy:
@@ -64,3 +75,4 @@ workflows:
       - test-node-8
       - test-node-6
       - test-node-9
+      - lint-and-cov
