@@ -23,22 +23,22 @@ describe('test/passport-auth0.test.js', () => {
       .expect(200);
   });
 
-  it('should GET /passport/auth0 redirect to auth url', async () => {
+  it('should GET /passport/auth0 redirect to auth url', function* () {
     const { domain, clientID } = app.config.passportAuth0;
     const regex = new RegExp(`^https:\/\/${domain}\/authorize\\?response_type=code&redirect_uri=http(.*)&client_id=${clientID}`);
 
-    const res = await request(app.callback())
+    const res = yield request(app.callback())
       .get('/passport/auth0')
       .expect(302);
 
     assert(regex.test(res.header.location));
   });
 
-  it('should GET /passport/auth0/callback redirect to auth url', async () => {
+  it('should GET /passport/auth0/callback redirect to auth url', function* () {
     const { domain, clientID } = app.config.passportAuth0;
     const regex = new RegExp(`^https:\/\/${domain}\/authorize\\?response_type=code&redirect_uri=http(.*)&client_id=${clientID}`);
 
-    const res = await request(app.callback())
+    const res = yield request(app.callback())
       .get('/passport/auth0/callback')
       .expect(302);
 
