@@ -6,16 +6,16 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-passport-auth0.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-passport-auth0
-[codecov-image]: https://img.shields.io/codecov/c/auth0/eggjs/egg-passport-auth0.svg?style=flat-square
-[codecov-url]: https://codecov.io/auth0/eggjs/egg-passport-auth0?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-passport-auth0.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-passport-auth0
-[snyk-image]: https://snyk.io/test/npm/egg-passport-auth0/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-passport-auth0
-[download-image]: https://img.shields.io/npm/dm/egg-passport-auth0.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-passport-auth0
+[npm-image]: https://img.shields.io/npm/v/@dyhpoon/egg-passport-auth0.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@dyhpoon/egg-passport-auth0
+[codecov-image]: https://img.shields.io/codecov/c/auth0/eggjs/@dyhpoon/egg-passport-auth0.svg?style=flat-square
+[codecov-url]: https://codecov.io/auth0/eggjs/@dyhpoon/egg-passport-auth0?branch=master
+[david-image]: https://img.shields.io/david/eggjs/@dyhpoon/egg-passport-auth0.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/@dyhpoon/egg-passport-auth0
+[snyk-image]: https://snyk.io/test/npm/@dyhpoon/egg-passport-auth0/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/@dyhpoon/egg-passport-auth0
+[download-image]: https://img.shields.io/npm/dm/@dyhpoon/egg-passport-auth0.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@dyhpoon/egg-passport-auth0
 
 auth0 passport plugin for egg
 
