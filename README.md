@@ -9,7 +9,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/@dyhpoon/egg-passport-auth0.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/@dyhpoon/egg-passport-auth0
-[circle-ci]: https://circleci.com/gh/dyhpoon/egg-passport-auth0.svg?style=shield
+[circle-image]: https://circleci.com/gh/dyhpoon/egg-passport-auth0.svg?style=shield
+[circle-ci]: https://circleci.com/gh/dyhpoon/egg-passport-auth0
 [codecov-image]: https://img.shields.io/codecov/c/auth0/eggjs/@dyhpoon/egg-passport-auth0.svg?style=flat-square
 [codecov-url]: https://codecov.io/auth0/eggjs/@dyhpoon/egg-passport-auth0?branch=master
 [david-image]: https://img.shields.io/david/eggjs/@dyhpoon/egg-passport-auth0.svg?style=flat-square
