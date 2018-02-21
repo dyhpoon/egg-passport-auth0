@@ -82,7 +82,7 @@ workflows:
       - test-node-6
       - test-node-9
       - lint-and-cov:
-        requires:
-          - test-node-8
-          - test-node-6
-          - test-node-9
+          requires:
+            - test-node-8
+            - test-node-6
+            - test-node-9
