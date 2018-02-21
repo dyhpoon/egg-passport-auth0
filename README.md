@@ -28,6 +28,12 @@ auth0 passport plugin for egg
 $ npm i @dyhpoon/egg-passport-auth0 --save
 ```
 
+## Requirements
+
+```
+node: ">=8.0.0"
+```
+
 ## Usage
 
 ```js
