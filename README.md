@@ -2,12 +2,14 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Test coverage][codecov-image]][codecov-url]
+[![Circle CI][circle-image]][circle-ci]
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/@dyhpoon/egg-passport-auth0.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/@dyhpoon/egg-passport-auth0
+[circle-ci]: https://circleci.com/gh/dyhpoon/egg-passport-auth0.svg?style=shield
 [codecov-image]: https://img.shields.io/codecov/c/auth0/eggjs/@dyhpoon/egg-passport-auth0.svg?style=flat-square
 [codecov-url]: https://codecov.io/auth0/eggjs/@dyhpoon/egg-passport-auth0?branch=master
 [david-image]: https://img.shields.io/david/eggjs/@dyhpoon/egg-passport-auth0.svg?style=flat-square
