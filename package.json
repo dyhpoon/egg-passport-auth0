@@ -1,6 +1,6 @@
 {
   "name": "@dyhpoon/egg-passport-auth0",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "auth0 passport plugin for egg",
   "eggPlugin": {
     "name": "passportAuth0",
