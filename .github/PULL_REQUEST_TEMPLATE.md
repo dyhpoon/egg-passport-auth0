@@ -1,7 +1,6 @@
 <!--
 Thank you for your pull request. Please review below requirements.
 Bug fixes and new features should include tests and possibly benchmarks.
-Contributors guide: https://github.com/eggjs/egg/blob/master/CONTRIBUTING.md
 
 -->
 
