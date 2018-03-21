@@ -15,8 +15,8 @@
 [codecov-url]: https://codecov.io/github/dyhpoon/egg-passport-auth0?branch=master
 [david-image]: https://img.shields.io/david/dyhpoon/egg-passport-auth0.svg?style=flat-square
 [david-url]: https://david-dm.org/dyhpoon/egg-passport-auth0
-[snyk-image]: https://snyk.io/test/npm/@dyhpoon/egg-passport-auth0/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/@dyhpoon/egg-passport-auth0
+[snyk-image]: https://snyk.io/test/github/dyhpoon/egg-passport-auth0/badge.svg?targetFile=package.json
+[snyk-url]: https://snyk.io/test/github/dyhpoon/egg-passport-auth0
 [download-image]: https://img.shields.io/npm/dt/@dyhpoon/egg-passport-auth0.svg?style=flat-square
 [download-url]: https://npmjs.org/package/@dyhpoon/egg-passport-auth0
 
